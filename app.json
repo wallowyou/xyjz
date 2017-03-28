@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/edit/edit",
+    "pages/tongji/tongji",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "星雨记账",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#575757",
+    "selectedColor": "#32A3E0",
+    "backgroundColor": "#fff",
+    "list": [{
+       "pagePath": "pages/index/index",
+      "text": "我的账单",
+      "iconPath": "tabImages/my.png",
+      "selectedIconPath": "tabImages/my-link.png"
+    },
+    {
+       "pagePath": "pages/edit/edit",
+      "text": "记一笔",
+      "iconPath": "tabImages/edit.png",
+      "selectedIconPath": "tabImages/edit-link.png"
+    },
+    {
+       "pagePath": "pages/tongji/tongji",
+      "text": "统计",
+      "iconPath": "tabImages/tj.png",
+      "selectedIconPath": "tabImages/tj-link.png"
+    }]
+  }
+}

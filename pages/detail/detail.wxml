@@ -1,0 +1,16 @@
+ <view class="list">
+ <block wx:for="{{tarr}}" wx:key="{{id}}">
+    <view class="news-item" data-title="{{item.title}}">
+      <view class="news-text">
+        <text class="news-title">{{item.title}}</text>
+        <view class="news-stamp">
+          <text wx:if="{{item.cate == '-'}}" class="sign-red">{{item.cate}} {{item.account}}</text>
+          <text wx:else class="sign-green">{{item.cate}} {{item.account}}</text>
+          <text class="time">{{item.sdate}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+    
+    </view>
+

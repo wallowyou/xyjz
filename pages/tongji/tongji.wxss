@@ -1,0 +1,26 @@
+.tongji{
+    width:100%;
+    margin-top:50rpx;
+    padding:20px;
+}
+.daytext{
+    font-size:24px;
+    color:blueviolet;
+}
+   
+.sl{
+    color:green;
+    margin-top:50rpx;
+}
+.zc{
+    color:red;
+      margin-top:50rpx;
+}
+.more{
+    color:blue;
+      margin-top:50rpx;
+}
+.daylist{
+    border-bottom:1px solid #ddd;
+    padding-bottom:10px;
+}

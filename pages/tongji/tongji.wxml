@@ -1,0 +1,9 @@
+<view class="tongji">
+    <view class="daytext">今天</view>
+    <view class="daylist">
+        <view class="sl">收入：{{dayincome}}</view>
+        <view class="zc">支出：{{dayoutcome}}</view>
+       <button type="primary" size="mini" bindtap="primary" style="margin-top:10px;" bindtap="lookmore"> 查看详情</button>
+    </view>
+   
+</view>
